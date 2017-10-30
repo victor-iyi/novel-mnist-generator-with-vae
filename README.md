@@ -1,3 +1,3 @@
-# variational-auto-encoder [VAE]
+# <span style="color:brown"> variational-auto-encoder [VAE]
 
-## by _Victor I. Afolabi_
+## <span style="color:blue"> by _Victor I. Afolabi_
