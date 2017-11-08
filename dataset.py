@@ -243,8 +243,8 @@ class ImageDataset(Dataset):
                     self._X[counter, :] = img
                     self._y[counter, :] = hot_label
                 except Exception as e:
-                    sys.stderr.write('{}'.format(e))
-                    sys.stderr.flush()
+                    # TODO: Handle exception if all image channels don't match
+                    sys.stderr.write('\r{}'.format(e))
                 finally:
                     counter += 1
                 if self._logging:
